@@ -1,3 +1,0 @@
-com.example.android.testing.espresso.BasicSample.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme
