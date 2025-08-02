@@ -1,0 +1,211 @@
+08-02 16:18:26.541 16348 16369 I TestRunner: started: testOpenActivityWith123(com.example.android.testing.espresso.BasicSample.ChangeTextBehaviorKtTest)
+08-02 16:18:26.550 16348 16369 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+08-02 16:18:26.608   705   856 W Parcel  : Expecting binder but got null!
+08-02 16:18:26.653   705   856 E OpenGLRenderer: Unable to match the desired swap behavior.
+08-02 16:18:26.664 16348 16373 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+08-02 16:18:26.678 16348 16348 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.MainActivity@31ff6a1 in: PRE_ON_CREATE
+08-02 16:18:26.679 16348 16348 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+08-02 16:18:26.692 16348 16373 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+08-02 16:18:26.697   938  1646 D EGL_emulation: app_time_stats: avg=1158.28ms min=1158.28ms max=1158.28ms count=1
+08-02 16:18:26.699 16348 16373 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+08-02 16:18:26.741  1556  1556 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+08-02 16:18:26.742  1556  2218 I HwDetectorWithState: (REDACTED) a: %d
+08-02 16:18:26.768   501   877 W Binder  : Caught a RuntimeException from the binder stub implementation.
+08-02 16:18:26.768   501   877 W Binder  : java.lang.ArrayIndexOutOfBoundsException: Array index out of range: 0
+08-02 16:18:26.768   501   877 W Binder  : 	at android.util.ArraySet.valueAt(ArraySet.java:422)
+08-02 16:18:26.768   501   877 W Binder  : 	at com.android.server.contentcapture.ContentCapturePerUserService$ContentCaptureServiceRemoteCallback.updateContentCaptureOptions(ContentCapturePerUserService.java:733)
+08-02 16:18:26.768   501   877 W Binder  : 	at com.android.server.contentcapture.ContentCapturePerUserService$ContentCaptureServiceRemoteCallback.setContentCaptureWhitelist(ContentCapturePerUserService.java:646)
+08-02 16:18:26.768   501   877 W Binder  : 	at android.service.contentcapture.IContentCaptureServiceCallback$Stub.onTransact(IContentCaptureServiceCallback.java:115)
+08-02 16:18:26.768   501   877 W Binder  : 	at android.os.Binder.execTransactInternal(Binder.java:1285)
+08-02 16:18:26.768   501   877 W Binder  : 	at android.os.Binder.execTransact(Binder.java:1244)
+08-02 16:18:26.782 16348 16348 D CompatibilityChangeReporter: Compat change id reported: 210923482; UID 10175; state: DISABLED
+08-02 16:18:26.783 16348 16348 D CompatibilityChangeReporter: Compat change id reported: 37756858; UID 10175; state: ENABLED
+08-02 16:18:26.841 16348 16348 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.MainActivity@31ff6a1 in: CREATED
+08-02 16:18:26.841 16348 16348 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.android.testing.espresso.BasicSample.MainActivity@31ff6a1
+08-02 16:18:26.843 16348 16348 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.MainActivity@31ff6a1 in: STARTED
+08-02 16:18:26.843 16348 16348 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.android.testing.espresso.BasicSample.MainActivity@31ff6a1
+08-02 16:18:26.849   501  9211 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0
+08-02 16:18:26.850 16348 16348 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.MainActivity@31ff6a1 in: RESUMED
+08-02 16:18:26.850 16348 16348 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.android.testing.espresso.BasicSample.MainActivity@31ff6a1
+08-02 16:18:26.854   501  9211 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+08-02 16:18:26.854   501  9211 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+08-02 16:18:26.857   501  9211 D EGL_emulation: eglCreateContext: 0xb400007c27f57090: maj 3 min 0 rcv 3
+08-02 16:18:26.858 16348 16348 D CompatibilityChangeReporter: Compat change id reported: 237531167; UID 10175; state: DISABLED
+08-02 16:18:26.864   501  9211 D EGL_emulation: eglMakeCurrent: 0xb400007c27f57090: ver 3 0 (tinfo 0x7e4782a100) (first time)
+08-02 16:18:26.902 16348 16372 W Parcel  : Expecting binder but got null!
+08-02 16:18:26.984 16348 16372 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0
+08-02 16:18:27.009 16348 16372 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+08-02 16:18:27.013 16348 16372 W OpenGLRenderer: Failed to initialize 101010-2 format, error = EGL_SUCCESS
+08-02 16:18:27.015 16348 16372 D EGL_emulation: eglCreateContext: 0xb400007c27f2ac90: maj 3 min 0 rcv 3
+08-02 16:18:27.016 16348 16372 D EGL_emulation: eglMakeCurrent: 0xb400007c27f2ac90: ver 3 0 (tinfo 0x7e47539080) (first time)
+08-02 16:18:27.018   705   856 D EGL_emulation: app_time_stats: avg=2765.56ms min=5.60ms max=19242.68ms count=7
+08-02 16:18:27.038   705   856 D EGL_emulation: app_time_stats: avg=441.54ms min=0.47ms max=17618.76ms count=40
+08-02 16:18:27.092   150   150 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+08-02 16:18:27.092 16348 16372 I Gralloc4: mapper 4.x is not supported
+08-02 16:18:27.103   150   150 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@4.0::IAllocator/default in either framework or device VINTF manifest.
+08-02 16:18:27.105   148   148 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+08-02 16:18:27.105 16348 16372 W Gralloc4: allocator 4.x is not supported
+08-02 16:18:27.121 16348 16372 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_vulkan_queue_submit_with_commands ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0
+08-02 16:18:27.125 16348 16372 E OpenGLRenderer: Unable to match the desired swap behavior.
+08-02 16:18:27.281   501   520 W ziparchive: Unable to open '/data/app/~~jKtaHMMEDkG0MmOuFCL7oQ==/com.example.android.testing.espresso.BasicSample-G9OuoD3ZTKE_fA64jhUOIA==/base.dm': No such file or directory
+08-02 16:18:27.282   501   520 I ActivityTaskManager: Displayed com.example.android.testing.espresso.BasicSample/.MainActivity: +710ms
+08-02 16:18:27.350  8098  8098 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227
+08-02 16:18:27.365  8098  8098 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+08-02 16:18:27.366  8098  8098 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.android.testing.espresso.BasicSample fieldId=-1 fieldName=null extras=null}, false)
+08-02 16:18:27.366  8098  8098 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+08-02 16:18:27.367  8098  8098 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+08-02 16:18:27.386   938  1720 D OneSearchSuggestProvider: Shut down the binder channel
+08-02 16:18:27.392   938 10281 I s.nexuslauncher: oneway function results for code 2 on binder at 0xb400007bb7f6bc10 will be dropped but finished with status UNKNOWN_TRANSACTION
+08-02 16:18:27.422  1556  2268 I AssistantForeground: (REDACTED) Get launcher package: %s
+08-02 16:18:27.493 16348 16369 W FileTestStorage: Output properties is not supported.
+08-02 16:18:27.494 16348 16369 I Tracing : Tracer added: class androidx.test.platform.tracing.AndroidXTracer
+08-02 16:18:27.543 16348 16369 D EventInjectionStrategy: Creating injection strategy with input manager.
+08-02 16:18:27.543 16348 16369 W sso.BasicSample: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (unsupported, reflection, allowed)
+08-02 16:18:27.543 16348 16369 W sso.BasicSample: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (unsupported, reflection, allowed)
+08-02 16:18:27.543 16348 16369 W sso.BasicSample: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (unsupported, reflection, allowed)
+08-02 16:18:27.568 16348 16369 W sso.BasicSample: Accessing hidden method Landroid/view/ViewConfiguration;->getDoubleTapMinTime()I (unsupported, reflection, allowed)
+08-02 16:18:27.581 16348 16348 W sso.BasicSample: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (unsupported, reflection, allowed)
+08-02 16:18:27.582 16348 16348 W sso.BasicSample: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (unsupported, reflection, allowed)
+08-02 16:18:27.583 16348 16348 W sso.BasicSample: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (unsupported, reflection, allowed)
+08-02 16:18:27.599 16348 16348 I ViewInteraction: Performing 'type text(123)' action on view view.getId() is <2130903042/com.example.android.testing.espresso.BasicSample:id/editTextUserInput>
+08-02 16:18:27.612   501  2264 W InputManager-JNI: Input channel object 'bbca86a Splash Screen com.example.android.testing.espresso.BasicSample (client)' was disposed without first being removed with the input manager!
+08-02 16:18:27.715  8098  8098 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227
+08-02 16:18:27.715 16348 16348 D CompatibilityChangeReporter: Compat change id reported: 163400105; UID 10175; state: ENABLED
+08-02 16:18:27.717  8098  8098 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+08-02 16:18:27.719 16348 16348 D InputMethodManager: showSoftInput() view=android.widget.EditText{fa72ab1 VFED..CL. .F.P..ID 44,302-1036,426 #7f030002 app:id/editTextUserInput aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+08-02 16:18:27.759 16348 16348 I AssistStructure: Flattened final assist data: 1536 bytes, containing 1 windows, 6 views
+08-02 16:18:27.771  8098  8098 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x20001(Normal) imeOptions=0x40000006 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.example.android.testing.espresso.BasicSample fieldId=2130903042 fieldName=null extras=null}, false)
+08-02 16:18:27.771  8098  8098 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+08-02 16:18:27.778  8098  8098 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+08-02 16:18:27.781  8098  8098 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:393
+08-02 16:18:27.797  8098  8098 I GoogleInputMethodService: GoogleInputMethodService.onStartInputView():1995 onStartInputView(EditorInfo{inputType=0x20001(Normal) imeOptions=0x40000006 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.example.android.testing.espresso.BasicSample fieldId=2130903042 fieldName=null extras=null}, false)
+08-02 16:18:27.808  8098  8098 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+08-02 16:18:27.809  8098  8149 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:393
+08-02 16:18:27.810  8098  8098 W ModuleManager: ModuleManager.loadModule():450 Module erj is not available
+08-02 16:18:27.814  8098  8098 I KeyboardViewUtil: KeyboardViewUtil.getKeyboardHeightRatio():189 systemKeyboardHeightRatio:1.000000; userKeyboardHeightRatio:1.000000.
+08-02 16:18:27.815  8098  8098 I AndroidIME: AbstractIme.onActivate():86 LatinIme.onActivate() : EditorInfo = inputType=0x20001(Normal) imeOptions=0x40000006 privateImeOptions=null actionName=DONE actionLabel=null actionId=0 initialSelStart=0 initialSelEnd=0 initialCapsMode=0x0 hintText=non-empty label=null packageName=com.example.android.testing.espresso.BasicSample fieldId=2130903042 fieldName=null extras=null, IncognitoMode = false, DeviceLocked = false
+08-02 16:18:27.818  8098  8098 I Delight5Facilitator: Delight5Facilitator.initializeForIme():777 initializeForIme() : Locale = [en_US], layout = qwerty
+08-02 16:18:27.829  8098  8098 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.cancelShutdown():55 cancelShutdown()
+08-02 16:18:27.829  8098  8098 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.syncLanguagePacks():67 syncLanguagePacks()
+08-02 16:18:27.831  8098  9093 I SpeechFactory: SpeechRecognitionFactory.maybeScheduleAutoPackDownloadForFallback():205 maybeScheduleAutoPackDownloadForFallback()
+08-02 16:18:27.831  8098  8098 I LatinIme: LatinIme.updateEnableInlineSuggestionsOnDecoderSideFlags():1003 inline flag updated to:false
+08-02 16:18:27.831  8098  9093 I FallbackOnDeviceRecognitionProvider: FallbackOnDeviceRecognitionProvider.maybeScheduleAutoPackDownload():195 maybeScheduleAutoPackDownload() for language tag en-US
+08-02 16:18:27.849  8098  8098 I KeyboardWrapper: KeyboardWrapper.consumeEvent():275 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+08-02 16:18:27.866  8098  8098 I KeyboardViewUtil: KeyboardViewUtil.calculateMaxKeyboardBodyHeight():40 leave 344 height for app when screen height:2148, header height:121 and isFullscreenMode:false, so the max keyboard body height is:1683
+08-02 16:18:27.866  8098  8098 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:393
+08-02 16:18:27.867  8098  8098 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = HEADER, shownType = SHOW_OPTIONAL
+08-02 16:18:27.867  8098  8098 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = true
+08-02 16:18:27.867  8098  8098 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = BODY, shownType = SHOW_MANDATORY
+08-02 16:18:27.868  8098  8098 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = true
+08-02 16:18:27.868  8098  8098 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3483 setKeyboardViewShown() : type = FLOATING_CANDIDATES, shownType = HIDE
+08-02 16:18:27.868  8098  8098 I GoogleInputMethodService: GoogleInputMethodService.setKeyboardViewShown():3530 setKeyboardViewShown() : shouldShow = false
+08-02 16:18:27.870  8098  8098 I KeyboardViewUtil: KeyboardViewUtil.calculateMaxKeyboardBodyHeight():40 leave 344 height for app when screen height:2148, header height:121 and isFullscreenMode:false, so the max keyboard body height is:1683
+08-02 16:18:27.872  8098  8098 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:393
+08-02 16:18:27.875  8098  8098 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:393
+08-02 16:18:27.875  8098  8098 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:393
+08-02 16:18:27.875  8098  8098 I KeyboardModeManager: KeyboardModeManager.setInputView():364 setInputView() : supportsOneHandedMode=true
+08-02 16:18:27.876  8098  8098 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():116 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+08-02 16:18:27.877  8098  8098 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():116 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+08-02 16:18:27.879  8098  8098 I KeyboardModeManager: KeyboardModeManager.setInputView():356 setInputView() : entry=hwn{languageTag=en-US, variant=qwerty, hasLocalizedResources=true, conditionCacheKey=_device=phone_device_size=default_enable_adaptive_text_editing=true_enable_inline_suggestions_on_client_side=false_enable_large_tablet_batch_1=false_enable_large_tablet_batch_2=false_enable_more_candidates_view_for_multilingual=false_enable_nav_redesign=false_enable_number_row=false_enable_preemptive_decode=true_enable_secondary_symbols=false_expressions=normal_four_or_more_letter_rows=false_keyboard_mode=normal_language=en-US_orientation=portrait_physical_keyboard=qwerty_show_secondary_digits=true_show_suggestions=true_split_with_duplicate_keys=true_variant=qwerty, imeDef.stringId=ime_english_united_states, imeDef.className=com.google.android.apps.inputmethod.libs.latin5.LatinIme, imeDef.languageTag=en-US}
+08-02 16:18:27.895  8098  8098 I VoiceImeExtension: VoiceImeExtension.shouldStartVoiceInputAutomatically():383 No private IME option set to start voice input.
+08-02 16:18:27.943   949   949 V InlineSuggestionRenderService: handleDestroySuggestionViews called for 0:588979555
+08-02 16:18:27.947  8098  8185 E OpenGLRenderer: Unable to match the desired swap behavior.
+08-02 16:18:27.965  7560  7572 I .gms.persistent: oneway function results for code 1 on binder at 0xb400007bb7f6de30 will be dropped but finished with status UNKNOWN_TRANSACTION and reply parcel size 80
+08-02 16:18:28.001 16348 16348 D UiControllerImpl: Injecting string: "123"
+08-02 16:18:28.015  8098  8098 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:393
+08-02 16:18:28.017  8098  8098 I DeviceModeUtil: DeviceModeUtil.getDeviceMode():122 Get device mode phone by ui mode:1 and smallestScreenWidthDp:393
+08-02 16:18:28.018  8098  8098 I NormalModeController: NormalModeController.getKeyboardBodyViewHolderPaddingBottom():116 currentPrimeKeyboardType:SOFT systemPaddingBottom:-1
+08-02 16:18:28.020  8098  8196 I Delight5Decoder: Delight5DecoderWrapper.setKeyboardLayout():457 setKeyboardLayout()
+08-02 16:18:28.021   501  2264 D InputDispatcher: Touch mode switch rejected, caller (pid=0, uid=10175) doesn't own the focused window nor none of the previously interacted window
+08-02 16:18:28.058   705   856 D EGL_emulation: app_time_stats: avg=17.08ms min=2.71ms max=77.91ms count=44
+08-02 16:18:28.058  8098  8098 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltips():159 Tooltip with id spell_check_add_to_dictionary not found in tooltipManager.
+08-02 16:18:28.083  8098  8098 W AndroidSpellCheckerService: AndroidSpellCheckerService.initialize():82 initialize...
+08-02 16:18:28.083  8098  8098 I ShortcutsDataManager: ShortcutsDataManager.onContentChanged():70 onContentChanged()
+08-02 16:18:28.083  8098  8098 I ContactsDataManager: ContactsDataManager.onContentChanged():156 onContentChanged()
+08-02 16:18:28.084  8098  8098 W AndroidSpellCheckerService: AndroidSpellCheckerService.initialize():94 initialize...done
+08-02 16:18:28.088 16348 16348 D InsetsController: show(ime(), fromIme=true)
+08-02 16:18:28.364   705   858 D ControlsListingControllerImpl: Subscribing callback, service count: 0
+08-02 16:18:28.374   705   858 D ControlsListingControllerImpl: Unsubscribing callback
+08-02 16:18:28.430 16348 16372 D EGL_emulation: app_time_stats: avg=83.27ms min=4.80ms max=332.50ms count=13
+08-02 16:18:28.451 16348 16348 I ViewInteraction: Performing 'close keyboard' action on view view.getId() is <2130903042/com.example.android.testing.espresso.BasicSample:id/editTextUserInput>
+08-02 16:18:28.457 16348 16348 D IdlingRegistry: Registering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@4b61b2c]
+08-02 16:18:28.462  8098  8098 I GoogleInputMethodService: GoogleInputMethodService.onFinishInputView():2241
+08-02 16:18:28.463  8098  8098 W TooltipLifecycleManager: TooltipLifecycleManager.dismissTooltips():159 Tooltip with id spell_check_add_to_dictionary not found in tooltipManager.
+08-02 16:18:28.466  8098  8098 I InputBundle: InputBundle.consumeEvent():923 Skip consuming an event as keyboard status is 0
+08-02 16:18:28.467  8098  8098 I KeyboardWrapper: KeyboardWrapper.consumeEvent():275 Skip consuming an event as current keyboard is deactivated (state=0, keyboard existence=true)
+08-02 16:18:28.467  8098  8098 I VoiceInputManagerWrapper: VoiceInputManagerWrapper.shutdown():77 shutdown()
+08-02 16:18:28.471  8098  8098 I AndroidIME: AbstractIme.onDeactivate():207 LatinIme.onDeactivate()
+08-02 16:18:28.471  8098  8149 W ModuleManager: ModuleManager.loadModule():450 Module jjj is not available
+08-02 16:18:28.779 16348 16348 D IdlingRegistry: Unregistering idling resources: [androidx.test.espresso.action.CloseKeyboardAction$CloseKeyboardIdlingResult@4b61b2c]
+08-02 16:18:28.783 16348 16348 I ViewInteraction: Performing 'single click' action on view view.getId() is <2130903040/com.example.android.testing.espresso.BasicSample:id/activityChangeTextBtn>
+08-02 16:18:28.938 16348 16348 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.MainActivity@31ff6a1 in: PAUSED
+08-02 16:18:28.939 16348 16348 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.android.testing.espresso.BasicSample.MainActivity@31ff6a1
+08-02 16:18:28.956 16348 16348 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.ShowTextActivity@c24022e in: PRE_ON_CREATE
+08-02 16:18:28.956 16348 16348 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.android.testing.espresso.BasicSample/.MainActivity }, activity.getIntent()=Intent { cmp=com.example.android.testing.espresso.BasicSample/.ShowTextActivity (has extras) }, activity=com.example.android.testing.espresso.BasicSample.ShowTextActivity@c24022e
+08-02 16:18:28.960 16348 16348 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.ShowTextActivity@c24022e in: CREATED
+08-02 16:18:28.960 16348 16348 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.android.testing.espresso.BasicSample/.MainActivity }, activity.getIntent()=Intent { cmp=com.example.android.testing.espresso.BasicSample/.ShowTextActivity (has extras) }, activity=com.example.android.testing.espresso.BasicSample.ShowTextActivity@c24022e
+08-02 16:18:28.960 16348 16348 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.ShowTextActivity@c24022e in: STARTED
+08-02 16:18:28.960 16348 16348 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.android.testing.espresso.BasicSample/.MainActivity }, activity.getIntent()=Intent { cmp=com.example.android.testing.espresso.BasicSample/.ShowTextActivity (has extras) }, activity=com.example.android.testing.espresso.BasicSample.ShowTextActivity@c24022e
+08-02 16:18:28.962 16348 16348 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.ShowTextActivity@c24022e in: RESUMED
+08-02 16:18:28.962 16348 16348 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.android.testing.espresso.BasicSample/.MainActivity }, activity.getIntent()=Intent { cmp=com.example.android.testing.espresso.BasicSample/.ShowTextActivity (has extras) }, activity=com.example.android.testing.espresso.BasicSample.ShowTextActivity@c24022e
+08-02 16:18:28.971 16348 16372 W Parcel  : Expecting binder but got null!
+08-02 16:18:28.977 16348 16372 E OpenGLRenderer: Unable to match the desired swap behavior.
+08-02 16:18:28.987   501   520 I ActivityTaskManager: Displayed com.example.android.testing.espresso.BasicSample/.ShowTextActivity: +88ms
+08-02 16:18:29.009   501  9165 W Parcel  : Expecting binder but got null!
+08-02 16:18:29.013   501  9165 W Parcel  : Expecting binder but got null!
+08-02 16:18:29.072   705   856 D EGL_emulation: app_time_stats: avg=8.56ms min=0.67ms max=28.26ms count=51
+08-02 16:18:29.104  8098  8098 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227
+08-02 16:18:29.104  8098  8098 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+08-02 16:18:29.104  8098  8098 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.android.testing.espresso.BasicSample fieldId=-1 fieldName=null extras=null}, false)
+08-02 16:18:29.104  8098  8098 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+08-02 16:18:29.105  8098  8098 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+08-02 16:18:29.105  8098  8098 I ShortcutsDataManager: AbstractContentDataManager.startImportContentTask():234 startImportContentTask()
+08-02 16:18:29.105  8098  8161 I ShortcutsDataManager: AbstractContentDataManager$ImportContentTask.doInBackground():248 doInBackground()
+08-02 16:18:29.105  8098  8161 I PersonalDictionaryDataHandler: PersonalDictionaryDataHandler.beginProcess():111 LanguageTags = [en-US]
+08-02 16:18:29.109  8098  8161 I ShortcutsDataManager: AbstractContentDataManager.importRecords():338 importRecords() : Success : Count = 0
+08-02 16:18:29.110  8098  8161 I ShortcutsDataManager: AbstractContentDataManager.importContentData():288 importContentData() : Ending import process
+08-02 16:18:29.110  8098  8196 I Delight5Decoder: Delight5DecoderWrapper.unloadLanguageModel():857 unloadLanguageModel() : 4, version [n/a]
+08-02 16:18:29.115  8098  8161 I PersonalLanguageModelUpdater: PersonalLanguageModelUpdater$UpdateOperation.performInternal():162 run() : Added 0 words and 0 shortcuts
+08-02 16:18:29.115  8098  8161 I DynamicLanguageModelOperation: DynamicLanguageModelOperation.perform():41 perform() : 4 : cje : Completed
+08-02 16:18:29.115  8098  8196 I Delight5Decoder: Delight5DecoderWrapper.loadLanguageModel():649 loadLanguageModel() : 4, version [n/a]
+08-02 16:18:29.116  8098  8196 I Delight5Decoder: Delight5DecoderWrapper.loadLanguageModel():690 Loaded dynamic LM 4.en
+08-02 16:18:29.116  8098  8098 I ShortcutsDataManager: AbstractContentDataManager$ImportContentTask.onPostExecute():259 onPostExecute() : Result = [2,0]
+08-02 16:18:29.116  8098  8098 I ShortcutsDataManager: ShortcutsDataManager.onImportFinished():80 onImportFinished() : Result = 2 : Count = 0
+08-02 16:18:29.222 16348 16348 I ViewInteraction: Performing 'Wait for 500 milliseconds' action on view view.getRootView() to equal view
+08-02 16:18:29.439 16348 16372 D EGL_emulation: app_time_stats: avg=22.57ms min=0.73ms max=427.16ms count=36
+08-02 16:18:29.503 16348 16372 D OpenGLRenderer: endAllActiveAnimators on 0xb400007ca7f3e890 (RippleDrawable) with handle 0xb400007bb7f7c890
+08-02 16:18:29.505 16348 16348 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.MainActivity@31ff6a1 in: STOPPED
+08-02 16:18:29.505 16348 16348 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.android.testing.espresso.BasicSample.MainActivity@31ff6a1
+08-02 16:18:29.729 16348 16348 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: is "123"}' assertion on view view.getId() is <2130903043/com.example.android.testing.espresso.BasicSample:id/show_text_view>
+08-02 16:18:29.740 16348 16348 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.ShowTextActivity@c24022e in: PAUSED
+08-02 16:18:29.740 16348 16348 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.android.testing.espresso.BasicSample/.MainActivity }, activity.getIntent()=Intent { cmp=com.example.android.testing.espresso.BasicSample/.ShowTextActivity (has extras) }, activity=com.example.android.testing.espresso.BasicSample.ShowTextActivity@c24022e
+08-02 16:18:29.742   705   856 W Parcel  : Expecting binder but got null!
+08-02 16:18:29.746  1556  2252 I AssistantForeground: (REDACTED) Get launcher package: %s
+08-02 16:18:29.749   295   295 D Zygote  : Forked child process 16393
+08-02 16:18:29.756 16393 16393 I asicSample.test: Late-enabling -Xcheck:jni
+08-02 16:18:29.757   705   856 E OpenGLRenderer: Unable to match the desired swap behavior.
+08-02 16:18:29.781 16393 16393 I asicSample.test: Using CollectorTypeCC GC.
+08-02 16:18:29.786   375   419 I adbd    : jdwp connection from 16393
+08-02 16:18:29.797  1556  2268 I AssistantForeground: (REDACTED) Get launcher package: %s
+08-02 16:18:29.808 16393 16393 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10174; state: ENABLED
+08-02 16:18:29.813 16393 16393 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+08-02 16:18:29.814 16393 16393 D nativeloader: Configuring classloader-namespace for other apk /system/framework/android.test.mock.jar. target_sdk_version=32, uses_libraries=ALL, library_path=/data/app/~~8F5mwcHuOm9G1L8uRD7X4A==/com.example.android.testing.espresso.BasicSample.test-kAe0PRHwq9D0F8z61QVrMQ==/lib/arm64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.android.testing.espresso.BasicSample.test
+08-02 16:18:29.814 16393 16393 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+08-02 16:18:29.814 16393 16393 W asicSample.test: ClassLoaderContext shared library size mismatch. Expected=0, found=2 (PCL[] | PCL[]{PCL[/system/framework/android.test.base.jar*2876549756]#PCL[/system/framework/android.test.mock.jar*4109917914]})
+08-02 16:18:29.815 16393 16393 D nativeloader: Configuring classloader-namespace for other apk /system/framework/android.test.runner.jar. target_sdk_version=32, uses_libraries=ALL, library_path=/data/app/~~8F5mwcHuOm9G1L8uRD7X4A==/com.example.android.testing.espresso.BasicSample.test-kAe0PRHwq9D0F8z61QVrMQ==/lib/arm64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.android.testing.espresso.BasicSample.test
+08-02 16:18:29.815 16393 16393 W ziparchive: Unable to open '/data/app/~~8F5mwcHuOm9G1L8uRD7X4A==/com.example.android.testing.espresso.BasicSample.test-kAe0PRHwq9D0F8z61QVrMQ==/base.dm': No such file or directory
+08-02 16:18:29.815 16393 16393 W ziparchive: Unable to open '/data/app/~~8F5mwcHuOm9G1L8uRD7X4A==/com.example.android.testing.espresso.BasicSample.test-kAe0PRHwq9D0F8z61QVrMQ==/base.dm': No such file or directory
+08-02 16:18:29.825 16393 16393 D nativeloader: Configuring classloader-namespace for other apk /data/app/~~8F5mwcHuOm9G1L8uRD7X4A==/com.example.android.testing.espresso.BasicSample.test-kAe0PRHwq9D0F8z61QVrMQ==/base.apk. target_sdk_version=32, uses_libraries=, library_path=/data/app/~~8F5mwcHuOm9G1L8uRD7X4A==/com.example.android.testing.espresso.BasicSample.test-kAe0PRHwq9D0F8z61QVrMQ==/lib/arm64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.android.testing.espresso.BasicSample.test
+08-02 16:18:29.831 16393 16393 V GraphicsEnvironment: ANGLE Developer option for 'com.example.android.testing.espresso.BasicSample.test' set to: 'default'
+08-02 16:18:29.831 16393 16393 V GraphicsEnvironment: ANGLE GameManagerService for com.example.android.testing.espresso.BasicSample.test: false
+08-02 16:18:29.831 16393 16393 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+08-02 16:18:29.833 16393 16393 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+08-02 16:18:29.833 16393 16393 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+08-02 16:18:29.841 16393 16417 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+08-02 16:18:29.841 16393 16417 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+08-02 16:18:29.842 16393 16417 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+08-02 16:18:29.849 16348 16348 D LifecycleMonitor: Lifecycle status change: com.example.android.testing.espresso.BasicSample.MainActivity@31ff6a1 in: DESTROYED
+08-02 16:18:29.849 16348 16348 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+08-02 16:18:29.849 16393 16393 D CompatibilityChangeReporter: Compat change id reported: 237531167; UID 10174; state: DISABLED
+08-02 16:18:29.850   501  2352 W InputManager-JNI: Input channel object '839016c com.example.android.testing.espresso.BasicSample/com.example.android.testing.espresso.BasicSample.MainActivity (client)' was disposed without first being removed with the input manager!
+08-02 16:18:29.852 16348 16369 I TestRunner: finished: testOpenActivityWith123(com.example.android.testing.espresso.BasicSample.ChangeTextBehaviorKtTest)

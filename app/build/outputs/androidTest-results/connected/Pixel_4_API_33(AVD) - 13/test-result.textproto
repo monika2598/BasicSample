@@ -1,0 +1,328 @@
+# 2025-08-02T20:20:07.875Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 6
+}
+test_status: PASSED
+test_result {
+  test_case {
+    test_class: "ChangeTextBehaviorKtTest"
+    test_package: "com.example.android.testing.espresso.BasicSample"
+    test_method: "testOpenActivityWith123"
+    start_time {
+      seconds: 1754165994
+      nanos: 521000000
+    }
+    end_time {
+      seconds: 1754165997
+      nanos: 833000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/gouravdeepsingh/Downloads/BasicSample/app/build/outputs/androidTest-results/connected/Pixel_4_API_33(AVD) - 13/logcat-com.example.android.testing.espresso.BasicSample.ChangeTextBehaviorKtTest-testOpenActivityWith123.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/gouravdeepsingh/Downloads/BasicSample/app/build/outputs/androidTest-results/connected/Pixel_4_API_33(AVD) - 13/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/gouravdeepsingh/Downloads/BasicSample/app/build/outputs/androidTest-results/connected/Pixel_4_API_33(AVD) - 13/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/gouravdeepsingh/Downloads/BasicSample/app/build/outputs/androidTest-results/connected/Pixel_4_API_33(AVD) - 13/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ChangeTextBehaviorKtTest"
+    test_package: "com.example.android.testing.espresso.BasicSample"
+    test_method: "testChangeTextWith123"
+    start_time {
+      seconds: 1754165998
+      nanos: 291000000
+    }
+    end_time {
+      seconds: 1754166000
+      nanos: 123000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/gouravdeepsingh/Downloads/BasicSample/app/build/outputs/androidTest-results/connected/Pixel_4_API_33(AVD) - 13/logcat-com.example.android.testing.espresso.BasicSample.ChangeTextBehaviorKtTest-testChangeTextWith123.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/gouravdeepsingh/Downloads/BasicSample/app/build/outputs/androidTest-results/connected/Pixel_4_API_33(AVD) - 13/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/gouravdeepsingh/Downloads/BasicSample/app/build/outputs/androidTest-results/connected/Pixel_4_API_33(AVD) - 13/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/gouravdeepsingh/Downloads/BasicSample/app/build/outputs/androidTest-results/connected/Pixel_4_API_33(AVD) - 13/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ChangeTextBehaviorKtTest"
+    test_package: "com.example.android.testing.espresso.BasicSample"
+    test_method: "testChangeTextWithEmpty"
+    start_time {
+      seconds: 1754166000
+      nanos: 124000000
+    }
+    end_time {
+      seconds: 1754166001
+      nanos: 357000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/gouravdeepsingh/Downloads/BasicSample/app/build/outputs/androidTest-results/connected/Pixel_4_API_33(AVD) - 13/logcat-com.example.android.testing.espresso.BasicSample.ChangeTextBehaviorKtTest-testChangeTextWithEmpty.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/gouravdeepsingh/Downloads/BasicSample/app/build/outputs/androidTest-results/connected/Pixel_4_API_33(AVD) - 13/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/gouravdeepsingh/Downloads/BasicSample/app/build/outputs/androidTest-results/connected/Pixel_4_API_33(AVD) - 13/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/gouravdeepsingh/Downloads/BasicSample/app/build/outputs/androidTest-results/connected/Pixel_4_API_33(AVD) - 13/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ChangeTextBehaviorKtTest"
+    test_package: "com.example.android.testing.espresso.BasicSample"
+    test_method: "testOpenActivityWithEmpty"
+    start_time {
+      seconds: 1754166001
+      nanos: 359000000
+    }
+    end_time {
+      seconds: 1754166002
+      nanos: 566000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/gouravdeepsingh/Downloads/BasicSample/app/build/outputs/androidTest-results/connected/Pixel_4_API_33(AVD) - 13/logcat-com.example.android.testing.espresso.BasicSample.ChangeTextBehaviorKtTest-testOpenActivityWithEmpty.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/gouravdeepsingh/Downloads/BasicSample/app/build/outputs/androidTest-results/connected/Pixel_4_API_33(AVD) - 13/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/gouravdeepsingh/Downloads/BasicSample/app/build/outputs/androidTest-results/connected/Pixel_4_API_33(AVD) - 13/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/gouravdeepsingh/Downloads/BasicSample/app/build/outputs/androidTest-results/connected/Pixel_4_API_33(AVD) - 13/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ChangeTextBehaviorKtTest"
+    test_package: "com.example.android.testing.espresso.BasicSample"
+    test_method: "testChangeTextWithAbcdef"
+    start_time {
+      seconds: 1754166003
+      nanos: 119000000
+    }
+    end_time {
+      seconds: 1754166005
+      nanos: 155000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/gouravdeepsingh/Downloads/BasicSample/app/build/outputs/androidTest-results/connected/Pixel_4_API_33(AVD) - 13/logcat-com.example.android.testing.espresso.BasicSample.ChangeTextBehaviorKtTest-testChangeTextWithAbcdef.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/gouravdeepsingh/Downloads/BasicSample/app/build/outputs/androidTest-results/connected/Pixel_4_API_33(AVD) - 13/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/gouravdeepsingh/Downloads/BasicSample/app/build/outputs/androidTest-results/connected/Pixel_4_API_33(AVD) - 13/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/gouravdeepsingh/Downloads/BasicSample/app/build/outputs/androidTest-results/connected/Pixel_4_API_33(AVD) - 13/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ChangeTextBehaviorKtTest"
+    test_package: "com.example.android.testing.espresso.BasicSample"
+    test_method: "testOpenActivityWithAbcdef"
+    start_time {
+      seconds: 1754166005
+      nanos: 156000000
+    }
+    end_time {
+      seconds: 1754166007
+      nanos: 113000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/gouravdeepsingh/Downloads/BasicSample/app/build/outputs/androidTest-results/connected/Pixel_4_API_33(AVD) - 13/logcat-com.example.android.testing.espresso.BasicSample.ChangeTextBehaviorKtTest-testOpenActivityWithAbcdef.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/gouravdeepsingh/Downloads/BasicSample/app/build/outputs/androidTest-results/connected/Pixel_4_API_33(AVD) - 13/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/gouravdeepsingh/Downloads/BasicSample/app/build/outputs/androidTest-results/connected/Pixel_4_API_33(AVD) - 13/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/gouravdeepsingh/Downloads/BasicSample/app/build/outputs/androidTest-results/connected/Pixel_4_API_33(AVD) - 13/cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "/Users/gouravdeepsingh/Downloads/BasicSample/app/build/outputs/androidTest-results/connected/Pixel_4_API_33(AVD) - 13/testlog/test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}
